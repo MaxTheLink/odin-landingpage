@@ -5,25 +5,42 @@ body {
   flex-direction: column;
 }
 
-.header {
-  background: #1f2937;
+.content {
+  width: 800px;
+  margin: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.dark-background {
+  background: #1f2937;
+}
+
+.primary-text {
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
   height: 60px;
 }
 
-.container {
-  width: 800px;
+.row {
   display: flex;
-  justify-content: center;
+}
+
+.header > .content {
+  align-items: center;
 }
 
 .logo {
   margin-right: auto;
   font-size: 24px;
-  font-weight: 500;
-  color: #f9faf8;
 }
 
 ul {
@@ -34,10 +51,36 @@ ul {
 }
 
 li {
-  margin-left: 16px;
+  margin-left: 32px;
 }
 
-.links {
-  font-size: 18px;
+.hero-image {
+  width: 400px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.content.hero {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.hero .primary-text {
+  font-size: 48px;
+}
+
+.hero .secondary-text {
+  margin: 10px 0px;
+}
+
+button {
+  background-color: rgb(71, 130, 240);
   color: #e5e7eb;
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: 0;
+}
+
+.hero-left {
+  padding-right: 20px;
 }
