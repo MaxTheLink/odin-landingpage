@@ -4,12 +4,16 @@
 
 .primary-text {
   color: #f9faf8;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 .secondary-text {
-  color: #e5e7eb;
+  color: rgba(229, 231, 235, 0.85);
   font-size: 18px;
+}
+
+.secondary-text.black-text {
+  color: rgba(31, 41, 55, 0.75);
 }
 
 .black-text {
@@ -28,7 +32,7 @@ body {
 }
 
 .content {
-  width: 1000px;
+  width: 1024px;
   margin: auto;
 }
 
@@ -40,7 +44,7 @@ body {
 
 .logo {
   margin-right: auto;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 ul {
@@ -51,34 +55,34 @@ ul {
 }
 
 li {
-  margin-left: 32px;
+  margin-left: 26px;
 }
 
 .hero-image {
-  width: 500px;
-  max-height: 250px;
+  width: 520px;
+  max-height: 240px;
 }
 
 .hero {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 100px auto;
+  padding-top: 5px;
+  padding-bottom: 25px;
   display: flex;
 }
 
-.hero .primary-text {
-  font-size: 48px;
-}
-
-.hero .secondary-text {
-  margin: 10px 0px;
+.hero-text {
+  font-size: 46px;
 }
 
 button {
-  background-color: rgb(71, 130, 240);
+  background-color: rgba(71, 130, 240);
   color: #e5e7eb;
   padding: 8px 32px;
+  margin: 10px auto;
   border-radius: 8px;
   border: 0;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .hero-left {
@@ -94,11 +98,11 @@ button {
 .information-title {
   font-size: 36px;
   font-weight: bolder;
-  margin: 32px 0px;
+  margin: 48px 0px;
 }
 
 .slider .row {
-  gap: 60px;
+  gap: 42px;
   justify-content: center;
 }
 
@@ -112,8 +116,8 @@ button {
 }
 
 .tile-image {
-  width: 175px;
-  height: 175px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 15px;
   border: rgb(71, 130, 240) 4px solid;
