@@ -78,7 +78,7 @@ li {
   font-size: 46px;
 }
 
-button {
+.primary-button {
   background-color: rgba(71, 130, 240);
   color: #e5e7eb;
   padding: 8px 32px;
@@ -156,4 +156,37 @@ button {
   margin-right: 32px;
   font-size: 24px;
   font-weight: 800;
+}
+
+.banner {
+  margin: 100px auto;
+  padding: 50px;
+  background-color: rgba(71, 130, 240);
+  border-radius: 8px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-cta {
+  font-size: 24px;
+}
+
+.footer {
+  height: 100px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ghost-button {
+  background-color: rgba(71, 130, 240);
+  color: #e5e7eb;
+  padding: 6px 30px;
+  border-radius: 8px;
+  border: #ffffff 2px solid;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-end;
 }
